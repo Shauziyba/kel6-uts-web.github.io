@@ -54,6 +54,15 @@ body {
     margin-top: 40px;
     margin-bottom: 20px;
   }
+
+  h2 {
+    font-size: 4vmax;
+    line-height: 1;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 20px;
+  }
+
   .box-form .left .overlay span p {
     margin-top: 30px;
     font-weight: 900;
@@ -105,6 +114,13 @@ body {
     justify-content: space-between;
     align-items: center;
   }
+
+  .remember-me--forget-password {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
   .box-form .right .remember-me--forget-password input {
     margin: 0;
     margin-right: 7px;
@@ -164,23 +180,9 @@ body {
     display: none;
   }
 
-  .form-box{
-    width: 80%;
-    height: 100%;
-    display: flex;
-    flex: 1 1 100%;
-    position: relative;
-    margin: 6% auto;
-    background: white;
-    padding: 5px;
-    padding-bottom: 20px;
-    padding-left: 30px;
-    padding-right: 30px;
-  }
-
   .inputfield{
     width: 100%;
-    padding: 10px 0;
+    padding: 10px 5px;
     margin:5px 0;
     border-left:0;
     border-right:0;
@@ -199,5 +201,5 @@ body {
     border: 0;
     outline: 0;
     box-shadow: 0px 4px 20px 0px #f0e68c;
-    background-image: linear-gradient(135deg, #f0e68c 100%, #c3b091 10%);
+    background-image: linear-gradient(135deg, #f0e68c 0%, #c3b091 100%);
   }
