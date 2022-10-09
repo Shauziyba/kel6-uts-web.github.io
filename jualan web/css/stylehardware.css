@@ -1,1 +1,24 @@
 body{margin:0;padding:0;font-family:"Poppins",sans-serif}h1,h2,h3,h4,h5{margin:0;padding:0}p{margin:0}.conatiner{max-width:1200px;width:90%;margin:auto}.row{display:flex;flex-wrap:wrap}.col1{width:5.3333333333%;margin:1.5%}.col2{width:13.6666666667%;margin:1.5%}.col3{width:22%;margin:1.5%}.col4{width:30.3333333333%;margin:1.5%}.col5{width:38.6666666667%;margin:1.5%}.col6{width:47%;margin:1.5%}.col7{width:55.3333333333%;margin:1.5%}.col8{width:63.6666666667%;margin:1.5%}.col9{width:72%;margin:1.5%}.col10{width:80.3333333333%;margin:1.5%}.col11{width:88.6666666667%;margin:1.5%}.col12{width:97%;margin:1.5%}.header{min-height:100vh;width:100%;background-image:linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),url("kasir.jpg");background-position:center;background-size:cover;position:relative}.nav-container{max-width:1200px;width:90%;margin:0 auto}nav{display:flex;padding:.5% 6%;justify-content:space-between;align-items:center}nav img{width:100px;margin-top:20px}.nav-links{flex:1;text-align:right}.nav-links ul li{list-style:none;display:inline-block;padding:8px 12px;position:relative}.nav-links ul li a{color:#fff;text-decoration:none;font-size:15px}.nav-links ul li::after{content:"";width:0%;height:2px;background:#f44336;display:block;margin:auto}.nav-links ul li:hover::after{width:100%}.text-box{width:90%;color:#fff;position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);text-align:center}.text-box h1{font-size:62px}.text-box p{margin:10px 0 40px;font-size:14px;color:#fff}.hero-btn{display:inline-block;text-decoration:none;color:#fff;border:1px solid #fff;padding:12px 34px;font-size:13px;background:transparent;position:relative;cursor:pointer}.hero-btn:hover{border:1px solide #c3b091;background:#c3b091;transition:1s}.btn{color:#000;background:#e6c76a;display:inline-block;padding:10px 30px;border-radius:10px 30px;text-decoration:none;transition:all cubic-bezier(0.165, 0.84, 0.44, 1) 1s}.btn:hover{background:#000;color:#fff}.ai-center{align-items:center}.img-responsive{width:100%}.hero{padding:5% 0}.hero-desc h1{font-size:2.5em;line-height:120%;margin-bottom:20px}.hero-desc h1 span{color:#b8860b}.hero-desc p{line-height:180%}.spacer30{height:30px}.tabel-card{box-shadow:0px 1px 9px 8px #e9cba3;padding:17px;box-sizing:border-box}.tabel-card .tc-image{height:300px;overflow:hidden}.tabel-card .tc-title{text-transform:capitalize}.tabel-card .tc-desc h3{text-transform:capitalize;font-size:40px;margin-bottom:10px}.tabel-card .tc-desc p{font-size:14px;color:#777}.tabel-card .tc-price{display:flex;align-items:center;justify-content:space-between;margin-top:10px;color:darkred}.tabel-card .tc-price .price-tag{font-size:20px}.tabel-card .tc-price .price-num{font-weight:500;font-size:20px}
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 22px ;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px
+}
+.kontak{
+    margin-bottom: -2px;
+}
+
+.icons .fa{
+    color: #c3b091;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
+}
