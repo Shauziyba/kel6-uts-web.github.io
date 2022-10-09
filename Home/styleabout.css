@@ -1,9 +1,7 @@
 *{
-    padding: 0;
     margin: 0;
-}
-body{
-    background-color: #ffffff;
+    padding: 0;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 .header{
@@ -31,6 +29,7 @@ nav img{
 .nav-links{
     flex: 1;
     text-align: right;
+    margin-top: -79;
 }
 
 .nav-links ul li{
@@ -66,26 +65,34 @@ nav img{
     left:50%;
     transform:translate(-50%,-50%);
     text-align: center;
-    margin-bottom: 20px;
 
+}
+
+.text-box h1{
+    font-size:62px;
+}
+
+.text-box p{
+    margin: 10px 0 40px;
+    font-size: 14px;
+    color:#fff;
 }
 
 .hero-btn{
-    margin-top: 50px;
-    text-decoration: none;
     display: inline-block;
-    padding: 8px 30px;
-    border-radius: 40px;
-    background: #ffff;
-    color: #2b1055;
-    font-size: 1.5em;
-    z-index: 9;
-    transform: translateY(100px);
+    text-decoration: none;
+    color: #ffff;
+    border: 1px solid #fff;
+    padding: 12px 34px;
+    font-size: 13px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
 }
 
 .hero-btn:hover{
-    border: 1px solide red;
-    background: red;
+    border: 1px solide #c3b091;
+    background: #c3b091;
     transition: 1s;
 }
 
@@ -99,16 +106,23 @@ nav img{
 .about-1{
     margin: 30px;
     padding: 5px;
+    margin-top: 72px;
 }
+
 .about-1 h1{
     text-align: center;
     color: black;
     font-weight: bold;
+    font-size: 36px;
+    font-weight: 600;
+    margin-top: 20px;
 }
+
 .about-1 p{
     text-align: center;
     padding: 3px;
     color: gray;
+    margin-top: -10px;
 }
 
 .about-item{
@@ -157,12 +171,112 @@ nav img{
 .about-item:hover h3,
 .about-item:hover hr{
     transition: all 400ms ease-in-out;
+} 
+
+.penghargaan{
+    margin: 0;
+    font-family: "Inter", "Odoo Unicode Support Noto", sans-serif;
+    font-size: 0.9375rem;
+    font-weight: 400;
+    line-height: 1.45;
+    color: #343A40;
+    text-align: left;
+    background-color: #ffffff;
+    box-sizing: border-box;
 }
 
-footer{
-    background: #212226;
-    padding: 20px;
+.aciv {
+    margin-top: 68px;
+    margin-bottom: 24;
 }
-footer p{
-    color: #fff;
+
+.team{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Josefin Sans', sans-serif;
+}
+  
+  .wrapper{
+    margin-top: 96px;
+  }
+  
+  .wrapper h1{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 38px;
+    margin-bottom: 95px;
+    text-align: center;
+  }
+  
+  .ourteam{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    text-align: center;
+    flex-wrap: wrap;
+  }
+  
+  .team .team_member{
+    background:#f0e68c;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 300px;
+    padding: 20px;
+    line-height: 20px;
+    color: #000000;  
+    position: relative;
+  }
+  
+  .team .team_member h3{
+    color: #000000;
+    font-size: 26px;
+    margin-top: 50px;
+  }
+  
+  .team .team_member p.role{
+    color: #000000;
+    margin: 12px 0;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+  
+  .team .team_member .team_img{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #f0e68c;
+  }
+  
+  .team .team_member .team_img img{
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+  }
+
+
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 30px 0;
+}
+
+.footer h4{
+    margin-bottom: 22px ;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 16px
+}
+.kontak{
+    margin-bottom: -2px;
+}
+
+.icons .fa{
+    color: #c3b091;
+    margin: 0 13px;
+    cursor: pointer;
+    padding: 18px 0;
 }

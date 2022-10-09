@@ -7,7 +7,7 @@
 .header{
     min-height: 100vh;
     width: 100%;
-    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(cashier.jpg);
+    background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(/Home/cashier.jpg);
     background-position: center;
     background-size: cover; 
     position: relative;
@@ -105,11 +105,17 @@ nav img{
 h1{
     font-size: 36px;
     font-weight: 600;
+    color:rgb(255, 255, 255);
 }
 .paragraph-box{
     padding: 20px;
 }
 
+h4{
+    font-size: 36px;
+    font-weight: 600;
+    color:rgb(0, 0, 0);
+}
 
 .p{
     color:black;
@@ -163,6 +169,7 @@ h3{
 
 .section2font{
     padding-top: 50px;
+    font-weight: 600;
 }
 
 .sectiontitle{
@@ -172,7 +179,7 @@ h3{
 
 .box-paragraph{
     padding-right: 250px;
-    font-weight: 500;
+    font-weight: 600;
 }
 
 .bungkus{
@@ -196,8 +203,6 @@ h3{
     
 }
 
-
-
 .sponsor{
     width: 100%;
     text-align: center;
@@ -213,7 +218,107 @@ h3{
     justify-content: space-between;
 }
 
+.kota{
+    padding-top: 110px;
+ margin-top: -120px;
+}
 
+.putih{
+color: rgb(255, 255, 255);
+}
+
+.rowg{
+    display:flex;
+    height:88%;
+    align-items:center;
+  }
+  
+  .col{
+    flex-basis:50%;
+  }
+  
+  .col h4{
+    margin-top: -4px;
+    color:rgb(12, 12, 12);
+    font-size:40px;
+  }
+  
+
+
+button{
+    width: 180px;
+    color:#000;
+    font-size: 12px;
+    padding: 12px 0;
+    background: rgb(162, 109, 29);
+    border: 0;
+    border-radius: 20px;
+    outline: none;
+    margin-top: 30px;
+  }
+
+
+
+.button-new:hover{
+  border: 1px solide #c3b091;
+  background: #c3b091;
+  transition: 1s;
+}
+
+
+  .card{
+    width: 200px;
+    height: 230px;
+    display:inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing:border-box;
+    cursor:pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size:cover;
+    transition:transform 0.5s;
+  }
+
+  .card1{
+    background-image: url(image/pic-1.png);
+  }
+
+  .card2{
+    background-image: url(image/pic-2.png);
+  }
+
+  .card3{
+    background-image: url(image/pic-3.png);
+  }
+
+  .card4{
+    background-image: url(image/pic-4.png);
+  }
+
+  .card5{
+    background-image: url(image/pic-5.png);
+  }
+
+  .card6{
+    background-image: url(image/pic-6.png);
+  }
+  
+  .card:hover{
+    transform: translateY(-10px);
+  }
+
+  h5{
+    color:#fff;
+    text-shadow:0 0 5px #999;
+  }
+
+  .card p{
+    text-shadow: 0 0 15px #000;
+    font-size:8px;
+  }
+  
+  
 /* footer */
 
 .footer{
@@ -223,9 +328,13 @@ h3{
 }
 
 .footer h4{
-    margin-bottom:25px ;
+    margin-bottom: 22px ;
     margin-top: 20px;
     font-weight: 600;
+    font-size: 16px
+}
+.kontak{
+    margin-bottom: -2px;
 }
 
 .icons .fa{
@@ -234,5 +343,3 @@ h3{
     cursor: pointer;
     padding: 18px 0;
 }
-
-

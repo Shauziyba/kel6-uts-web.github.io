@@ -1,4 +1,4 @@
-# kel6-uts-web.github.io
+# Uts_Website
 
 Gian Pratista - 535210078
 
